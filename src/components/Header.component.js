@@ -14,8 +14,10 @@ function Header() {
                     alt="" />
             </Link>
 
-            <input type="text" className="header__searchInput" />
-            <SearchIcon className="header__searchIcon" />
+            <div className="header__search">
+                <input type="text" className="header__searchInput" />
+                <SearchIcon className="header__searchIcon" />
+            </div>
         </nav>
     )
 }
