@@ -18,6 +18,15 @@ function Header() {
                 <input type="text" className="header__searchInput" />
                 <SearchIcon className="header__searchIcon" />
             </div>
+
+            <div className="header__nav">
+                <Link to="/login" className="header__link">
+                    <div className="header__option">
+                        <span>Testing</span>
+                        <span>Testing</span>
+                    </div>
+                </Link>
+            </div>
         </nav>
     )
 }
