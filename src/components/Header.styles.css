@@ -11,6 +11,16 @@
     margin-top: 18px;
 }
 
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__link{
+    color: white;
+    text-decoration: none;
+}
+
 .header__search{
     display: flex;
     flex: 1;

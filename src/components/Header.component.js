@@ -22,8 +22,20 @@ function Header() {
             <div className="header__nav">
                 <Link to="/login" className="header__link">
                     <div className="header__option">
-                        <span>Testing</span>
-                        <span>Testing</span>
+                        <span>Hello</span>
+                        <span>Sign In</span>
+                    </div>
+                </Link>
+                <Link to="/" className="header__link">
+                    <div className="header__option">
+                        <span>Returns</span>
+                        <span>& Orders</span>
+                    </div>
+                </Link>
+                <Link to="/" className="header__link">
+                    <div className="header__option">
+                        <span>Your</span>
+                        <span>Prime</span>
                     </div>
                 </Link>
             </div>
