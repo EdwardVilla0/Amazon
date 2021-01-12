@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Header from './components/Header.component';
+import Header from './components/Header/Header.component';
+import Home from './components/Home/Home.component';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="app">
         <Switch>
           <Route path="/checkout">
+            <Header />
             <h1>checkout</h1>
           </Route>
           <Route path="/login">
@@ -16,7 +18,7 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
-            <h1>home page</h1>
+            <Home />
           </Route>
         </Switch>
       </div>
