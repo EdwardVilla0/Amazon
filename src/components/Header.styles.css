@@ -11,6 +11,15 @@
     margin-top: 18px;
 }
 
+.header_optionBasket{
+    display: flex;
+}
+
+.header__basketCount{
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+
 .header__nav{
     display: flex;
     justify-content: space-evenly;
