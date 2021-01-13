@@ -25,6 +25,27 @@ function Home() {
                     image="https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/MWQ0NzdiNzQt/MWQ0NzdiNzQt-NDFlZjdlZDIt-w379._SY304_CB412115001_.jpg" />
             </div>
 
+            <div className="home__row">
+                <Product
+                    id="123456789"
+                    title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    price={11.96}
+                    rating={5}
+                    image="https://m.media-amazon.com/images/I/51T-sMqSMiL._AC_SL260_.jpg" />
+                <Product
+                    id="123456789"
+                    title="testing"
+                    price={11.96}
+                    rating={5}
+                    image="https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/MWQ0NzdiNzQt/MWQ0NzdiNzQt-NDFlZjdlZDIt-w379._SY304_CB412115001_.jpg" />
+                <Product
+                    id="123456789"
+                    title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    price={11.96}
+                    rating={5}
+                    image="https://m.media-amazon.com/images/I/51T-sMqSMiL._AC_SL260_.jpg" />
+            </div>
+
 
         </div>
     )
