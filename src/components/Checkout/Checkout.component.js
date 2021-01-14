@@ -1,6 +1,7 @@
 import React from 'react'
 import { useStateValue } from '../StateProvider/StateProvider.component';
 import './Checkout.styles.css'
+import CheckoutProduct from '../CheckoutProduct/CheckoutProduct.component';
 
 function Checkout() {
     const [{ basket }] = useStateValue();
@@ -13,11 +14,22 @@ function Checkout() {
 
             {basket?.length === 0 ? (
                 <div>
-                    <h2>your shopping cart is empty</h2>
+                    <h1>your shopping basket is empty</h1>
                 </div>
             ) : (
                     <div>
-                        <h1>testing more</h1>
+                        <h1 className="checkout__title">your shopping basket</h1>
+
+                        {
+                            basket.map(item => (
+                                <CheckoutProduct
+                                    item={item.id}
+                                    title={item.title}
+                                    image={item.image}
+                                    price={item.price}
+                                    rating={item.rating} />
+                            ))
+                        }
                     </div>
                 )
             }
