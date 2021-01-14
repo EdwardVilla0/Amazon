@@ -9,7 +9,7 @@ function Checkout() {
             <div className="">
                 <img
                     className="chechout__ad"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrIch8I8uvarlda_8e5IvijdR_Kul78igN1A&usqp=CAU"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/Movie/ONIM_2021_GWBleedingHero_1500x600_PRE_Final_en-US_PVD6356_OneNightInMiami._CB411496424_.jpg"
                     alt="" />
 
             </div>
