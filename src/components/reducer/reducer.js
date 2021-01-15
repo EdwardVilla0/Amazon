@@ -19,7 +19,7 @@ const reducer = (state, action) => {
             };
 
         case 'REMOVE_FROM_BASKET':
-            return { state }
+            return { ...state }
 
         default:
             return state;
