@@ -11,6 +11,14 @@ function Login() {
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png "
                     alt="" />
             </Link>
+
+            <div className="login__container">
+                <h1>sign in</h1>
+                <form>
+                    <h5>email</h5>
+                    <input type="text" />
+                </form>
+            </div>
         </div>
     )
 }
