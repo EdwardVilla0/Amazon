@@ -1,3 +1,12 @@
+.checkout{
+}
+
+.checkout__title{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
 .chechout__ad{
     width: 100%;
     height: 250px;

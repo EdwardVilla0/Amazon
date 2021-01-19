@@ -38,4 +38,4 @@ function CheckoutProduct({ id, title, image, price, rating }) {
     )
 }
 
-export default CheckoutProduct
+export default CheckoutProduct;
