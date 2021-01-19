@@ -3,6 +3,7 @@ import { useStateValue } from '../StateProvider/StateProvider.component';
 import './Checkout.styles.css'
 import CheckoutProduct from '../CheckoutProduct/CheckoutProduct.component';
 import Subtotal from '../Subtotal/Subtotal.component';
+import CurrencyFormat from 'react-currency-format';
 
 function Checkout() {
     const [{ basket }] = useStateValue();
