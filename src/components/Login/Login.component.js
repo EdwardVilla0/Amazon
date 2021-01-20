@@ -21,6 +21,11 @@ function Login() {
                     <input type="password" />
                     <button>Sign In</button>
                 </form>
+
+                <p>
+                    by signing in you agree to the terms and conditions of Amazon
+                </p>
+                <button>Create your Amazon account</button>
             </div>
         </div>
     )
