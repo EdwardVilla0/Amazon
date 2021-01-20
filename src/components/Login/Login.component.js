@@ -15,8 +15,11 @@ function Login() {
             <div className="login__container">
                 <h1>sign in</h1>
                 <form>
-                    <h5>email</h5>
+                    <h5>Email</h5>
                     <input type="text" />
+                    <h5>Password</h5>
+                    <input type="password" />
+                    <button>Sign In</button>
                 </form>
             </div>
         </div>
