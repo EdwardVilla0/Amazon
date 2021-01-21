@@ -2,6 +2,14 @@ import React from 'react';
 import './Login.styles.css';
 import { Link, useHistory } from 'react-router-dom';
 
+const login = event => {
+    event.preventDefault();
+}
+
+const register = event => {
+    event.preventDefault();
+}
+
 function Login() {
     return (
         <div className="login">
@@ -13,19 +21,19 @@ function Login() {
             </Link>
 
             <div className="login__container">
-                <h1>sign in</h1>
+                <h1>Sign in</h1>
                 <form>
                     <h5>Email</h5>
-                    <input type="text" />
+                    <input type="email" />
                     <h5>Password</h5>
                     <input type="password" />
-                    <button className="login__containerSignInButton">Sign In</button>
+                    <button onClick={login} type="submit" className="login__containerSignInButton">Sign In</button>
                 </form>
 
                 <p>
                     by signing in you agree to the terms and conditions of Amazon
                 </p>
-                <button className="login__registerButton">Create your Amazon account</button>
+                <button onClick={register} className="login__registerButton">Create your Amazon account</button>
             </div>
         </div>
     )
