@@ -19,13 +19,13 @@ function Login() {
                     <input type="text" />
                     <h5>Password</h5>
                     <input type="password" />
-                    <button>Sign In</button>
+                    <button className="login__containerSignInButton">Sign In</button>
                 </form>
 
                 <p>
                     by signing in you agree to the terms and conditions of Amazon
                 </p>
-                <button>Create your Amazon account</button>
+                <button className="login__registerButton">Create your Amazon account</button>
             </div>
         </div>
     )
